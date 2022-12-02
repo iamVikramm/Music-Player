@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Single Playlist</title>
+
+  <!--- Font Awesome link -->
+  <script src="https://kit.fontawesome.com/bf18274472.js" crossorigin="anonymous"></script>
+  <!-- Google Fonts Link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;700;800;900&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+  <!-- Bootstrap  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link src="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <!-- Css Style Sheets -->
+  <link rel="stylesheet" href="css/singleplayliststyles.css">
+  <!-- Google icons -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<!-- *********************************Title-bar************************************************** -->
+
+<body>
+  <section id="title">
+    <div class="d-flex justify-content-centre">
+      <div class="title-image">
+        <img class="timage" src="css/download.jpg" />
+      </div>
+      <div class="title-name">
+        Ninja<h5>Studio</h5>
+      </div>
+      <div class="favourites">
+        Favourites
+      </div>
+      <div class="container">
+        <form>
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input class="search-box" type="text" placeholder="search" aria-lable="search" name="search" />
+          <i class="fa-solid fa-microphone"></i>
+
+        </form>
+      </div>
+      <div class="bell-icon">
+        <button type="button" class="btn btn-primary position-relative bell-iconbg"><i class="fa-solid fa-bell"></i>
+          <span class="position-absolute top-50 start-10 translate-middle p-1 bg-danger border border-light rounded-circle">
+            <span class="visually-hidden">New alerts</span>
+          </span>
+        </button>
+      </div>
+      <div class="profile-image">
+        <img class="profile-img" src="css/vikram.jpeg" </div>
+      </div>
+  </section>
+
+  <!-- ********************************Single-PlayList & Queue******************************************************************************************** -->
+
+  <section id="playlist-queue">
+
+    <section id="single-playlist">
+      <div class="single-playlist-container">
+        <div class="single-playlist-image">
+          <img class="single-playlist-img" src="css/ariana.jpg" alt="Dua Lipa">
+        </div>
+
+        <div class="singleplaylist-info">
+          <div class="info-long">
+            <div class="info-bros">
+              <div class="Heading">
+                <h2>Ariana Grande</h2>
+              </div>
+              <div class="artist-origin">
+                Singer &nbspSongwriter
+              </div>
+            </div>
+            <div class="followers">
+              <div>
+                999&nbsp&nbsp
+              </div>
+              <div>
+                Followers
+              </div>
+            </div>
+          </div>
+          <div class="artist-info">
+            Dualipa is an English Singer and Song Writer, Popularly Known for her Pop songs. She has Won Many Awards Brit Award, Grammy Award and NME Award. Her Popular Song is One Kiss.
+          </div>
+
+          <div class="singleplaylist-playbutton">
+            <div class="button-bros">
+              <div class="button">
+                <button class="btn playall-btn " type="button" name="button">Play All</button>
+              </div>
+              <div class="tracks-albums">
+                <h6>301 Tracks &nbsp |&nbsp&nbsp 143 Albums</h6>
+              </div>
+            </div>
+            <div class="follow">
+              <h6>Follow</h6>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="songs-list">
+        <div class="song-list-item">
+
+        </div>
+      </div>
+    </section>
+
+
+<!-- *****************Queue************************* -->
+
+    <section id="queue">
+      <div class="heading-view">
+        <div class="queue-heading">
+          <h3>Similar Artists</h3>
+        </div>
+        <div class="queue-button">
+          <div class="dropdown">
+            <button type="button" class="btn q-btn" data-bs-toggle="dropdown" aria-expanded="false">View All</button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Playlists</a></li>
+              <li><a class="dropdown-item" href="#">Favourite Songs</a></li>
+
+            </ul>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="queue-container">
+
+        <div class="queue-body">
+
+          <div class="queue-item">
+            <div class="q-seria-num">
+              01
+            </div>
+            <div class="queue-img-name">
+              <div class="queue-image">
+                <img class="q-img" src="css/ariana.jpg" />
+              </div>
+              <div class="q-song-artist-name">
+                <div class="q-songname">
+                  <h5>Positions</h5>
+                </div>
+                <div class="q-artist-name">
+                  <em>Ariana G</em>
+                </div>
+              </div>
+            </div>
+            <div class="queue-heart">
+              <button class="btn" type="button" href="#"><i class="fa-solid fa-ellipsis"></i></button>
+            </div>
+          </div>
+
+
+          <div class="queue-item">
+            <div class="q-seria-num">
+              02
+            </div>
+            <div class="queue-img-name">
+              <div class="queue-image">
+                <img class="q-img" src="css/shawn.webp" />
+              </div>
+              <div class="q-song-artist-name">
+                <div class="q-songname">
+                  <h5>Stitches</h5>
+                </div>
+                <div class="q-artist-name">
+                  <em>Shawn Mendes</em>
+                </div>
+              </div>
+            </div>
+            <div class="queue-heart">
+              <button class="btn" type="button" href="#"><i class="fa-solid fa-ellipsis"></i></button>
+            </div>
+          </div>
+
+          <div class="queue-item">
+            <div class="q-seria-num">
+              03
+            </div>
+            <div class="queue-img-name">
+              <div class="queue-image">
+                <img class="q-img" src="css/billie.jpg" />
+              </div>
+              <div class="q-song-artist-name">
+                <div class="q-songname">
+                  <h5>Lonely</h5>
+                </div>
+                <div class="q-artist-name">
+                  <em>Billie Eilish</em>
+                </div>
+              </div>
+            </div>
+            <div class="queue-heart">
+              <button class="btn" type="button" href="#"><i class="fa-solid fa-ellipsis"></i></button>
+
+            </div>
+          </div>
+
+    </section>
+
+  </section>
+
+  <!-- *********************Broad-Songs and Queue************* -->
+<section id="broadsong-queue">
+
+    <section id="broadsongs">
+
+      <div class="queue-pl-container">
+
+        <div class="queue-pl-body">
+
+          <div class="queue-pl-item">
+            <div class="q-pl-seria-num">
+              07
+            </div>
+            <div class="queue-plimg-name">
+              <div class="queue-pl-image">
+                <img class="q-pl-img" src="css/dualipacircle.jpg" />
+              </div>
+              <div class="q-pl-song-artist-name">
+                <div class="q-pl-songname">
+                  <h5>No Lie</h5>
+                </div>
+                <div class="q-pl-artist-name">
+                  <em>Dua Lipa</em>
+                </div>
+              </div>
+            </div>
+            <div class="queue-pl-heart">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="queue-pl-plus">
+              <i class="fa-regular fa-plus"></i>
+            </div>
+          </div>
+
+          <div class="queue-pl-item">
+            <div class="q-pl-seria-num">
+              07
+            </div>
+            <div class="queue-plimg-name">
+              <div class="queue-pl-image">
+                <img class="q-pl-img" src="css/dualipa.jpg" />
+              </div>
+              <div class="q-pl-song-artist-name">
+                <div class="q-pl-songname">
+                  <h5>One Kiss</h5>
+                </div>
+                <div class="q-pl-artist-name">
+                  <em>Dua Lipa</em>
+                </div>
+              </div>
+            </div>
+            <div class="queue-pl-heart">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="queue-pl-plus">
+              <i class="fa-regular fa-plus"></i>
+            </div>
+          </div>
+
+          <div class="queue-pl-item">
+            <div class="q-pl-seria-num">
+              07
+            </div>
+            <div class="queue-plimg-name">
+              <div class="queue-pl-image">
+                <img class="q-pl-img" src="css/dualipacircle.jpg" />
+              </div>
+              <div class="q-pl-song-artist-name">
+                <div class="q-pl-songname">
+                  <h5>Cold Heart</h5>
+                </div>
+                <div class="q-pl-artist-name">
+                  <em>Dua Lipa</em>
+                </div>
+              </div>
+            </div>
+            <div class="queue-pl-heart">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="queue-pl-plus">
+              <i class="fa-regular fa-plus"></i>
+            </div>
+          </div>
+
+          <div class="queue-pl-item">
+            <div class="q-pl-seria-num">
+              07
+            </div>
+            <div class="queue-plimg-name">
+              <div class="queue-pl-image">
+                <img class="q-pl-img" src="css/dualipa.jpg" />
+              </div>
+              <div class="q-pl-song-artist-name">
+                <div class="q-pl-songname">
+                  <h5>New Rules</h5>
+                </div>
+                <div class="q-pl-artist-name">
+                  <em>Dua Lipa</em>
+                </div>
+              </div>
+            </div>
+            <div class="queue-pl-heart">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="queue-pl-plus">
+              <i class="fa-regular fa-plus"></i>
+            </div>
+          </div>
+
+          <div class="queue-pl-item">
+            <div class="q-pl-seria-num">
+              07
+            </div>
+            <div class="queue-plimg-name">
+              <div class="queue-pl-image">
+                <img class="q-pl-img" src="css/dualipacircle.jpg" />
+              </div>
+              <div class="q-pl-song-artist-name">
+                <div class="q-pl-songname">
+                  <h5>Dont Start Now</h5>
+                </div>
+                <div class="q-pl-artist-name">
+                  <em>Dua Lipa</em>
+                </div>
+              </div>
+            </div>
+            <div class="queue-pl-heart">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="queue-pl-plus">
+              <i class="fa-regular fa-plus"></i>
+            </div>
+          </div>
+
+          <div class="queue-pl-item">
+            <div class="q-pl-seria-num">
+              07
+            </div>
+            <div class="queue-plimg-name">
+              <div class="queue-pl-image">
+                <img class="q-pl-img" src="css/dualipa.jpg" />
+              </div>
+              <div class="q-pl-song-artist-name">
+                <div class="q-pl-songname">
+                  <h5>Break My Heart</h5>
+                </div>
+                <div class="q-pl-artist-name">
+                  <em>Dua Lipa</em>
+                </div>
+              </div>
+            </div>
+            <div class="queue-pl-heart">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="queue-pl-plus">
+              <i class="fa-regular fa-plus"></i>
+            </div>
+          </div>
+
+      </div>
+      </div>
+    </section>
+
+    <section id="qd">
+      <div class="heading-view">
+        <div class="queue-heading">
+          <h3>Recently Played</h3>
+        </div>
+        <div class="queue-button">
+          <div class="dropdown">
+            <button type="button" class="btn q-btn" data-bs-toggle="dropdown" aria-expanded="false">View All</button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Playlists</a></li>
+              <li><a class="dropdown-item" href="#">Favourite Songs</a></li>
+
+            </ul>
+          </div>
+        </div>
+
+
+      </div>
+      <div class="queued-container">
+
+        <div class="queue-body">
+
+          <div class="queue-item">
+            <div class="q-seria-num">
+              01
+            </div>
+            <div class="queue-img-name">
+              <div class="queue-image">
+                <img class="qd-img" src="css/ariana.jpg" />
+              </div>
+              <div class="q-song-artist-name">
+                <div class="q-songname">
+                  <h5>Positions</h5>
+                </div>
+                <div class="q-artist-name">
+                  <em>Ariana G</em>
+                </div>
+              </div>
+            </div>
+            <div class="queue-heart">
+              <button class="btn qd-btn" type="button" href="#"><i class="fa-solid fa-ellipsis"></i></button>
+            </div>
+          </div>
+
+
+          <div class="queue-item">
+            <div class="q-seria-num">
+              02
+            </div>
+            <div class="queue-img-name">
+              <div class="queue-image">
+                <img class="qd-img" src="css/shawn.webp" />
+              </div>
+              <div class="q-song-artist-name">
+                <div class="q-songname">
+                  <h5>Stitches</h5>
+                </div>
+                <div class="q-artist-name">
+                  <em>Shawn Mendes</em>
+                </div>
+              </div>
+            </div>
+            <div class="queue-heart">
+              <button class="btn qd-btn" type="button" href="#"><i class="fa-solid fa-ellipsis"></i></button>
+            </div>
+          </div>
+
+          <div class="queue-item">
+            <div class="q-seria-num">
+              03
+            </div>
+            <div class="queue-img-name">
+              <div class="queue-image">
+                <img class="qd-img" src="css/billie.jpg" />
+              </div>
+              <div class="q-song-artist-name">
+                <div class="q-songname">
+                  <h5>Lonely</h5>
+                </div>
+                <div class="q-artist-name">
+                  <em>Billie Eilish</em>
+                </div>
+              </div>
+            </div>
+            <div class="queue-heart">
+              <button class="btn qd-btn" type="button" href="#"><i class="fa-solid fa-ellipsis"></i></button>
+
+            </div>
+          </div>
+
+          <div class="queue-item">
+            <div class="q-seria-num">
+              01
+            </div>
+            <div class="queue-img-name">
+              <div class="queue-image">
+                <img class="qd-img" src="css/ariana.jpg" />
+              </div>
+              <div class="q-song-artist-name">
+                <div class="q-songname">
+                  <h5>Positions</h5>
+                </div>
+                <div class="q-artist-name">
+                  <em>Ariana G</em>
+                </div>
+              </div>
+            </div>
+            <div class="queue-heart">
+              <button class="btn qd-btn" type="button" href="#"><i class="fa-solid fa-ellipsis"></i></button>
+            </div>
+          </div>
+
+
+          <div class="queue-item">
+            <div class="q-seria-num">
+              02
+            </div>
+            <div class="queue-img-name">
+              <div class="queue-image">
+                <img class="qd-img" src="css/shawn.webp" />
+              </div>
+              <div class="q-song-artist-name">
+                <div class="q-songname">
+                  <h5>Stitches</h5>
+                </div>
+                <div class="q-artist-name">
+                  <em>Shawn Mendes</em>
+                </div>
+              </div>
+            </div>
+            <div class="queue-heart">
+              <button class="btn qd-btn" type="button" href="#"><i class="fa-solid fa-ellipsis"></i></button>
+            </div>
+          </div>
+
+          <div class="queue-item">
+            <div class="q-seria-num">
+              03
+            </div>
+            <div class="queue-img-name">
+              <div class="queue-image">
+                <img class="qd-img" src="css/billie.jpg" />
+              </div>
+              <div class="q-song-artist-name">
+                <div class="q-songname">
+                  <h5>Lonely</h5>
+                </div>
+                <div class="q-artist-name">
+                  <em>Billie Eilish</em>
+                </div>
+              </div>
+            </div>
+            <div class="queue-heart">
+              <button class="btn qd-btn" type="button" href="#"><i class="fa-solid fa-ellipsis"></i></button>
+
+            </div>
+          </div>
+
+
+
+
+    </section>
+
+  </section>
+
+  <!-- ***************************BS Script************** -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+
+</html>
